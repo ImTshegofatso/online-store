@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.user-header {
+  width: 100%;
+  text-align: center; /* Center the text */
+  background-color: #13262f; /* Give the user header a background color */
+  color: #fff;
+  padding: 10px; /* Give the user header some vertical padding */
+  font-size: 2em; /* Increase the font size */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a.active {
+  color: #f4a261;
+}
+
+nav ul li a:hover {
+  color: #e76f51;
+}
+
+nav ul li a svg {
+  width: 1em;
+  height: 1em;
+}
